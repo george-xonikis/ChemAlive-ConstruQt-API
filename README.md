@@ -4,7 +4,7 @@
 
 - [Endpoints](./Endpoints.md)
 
-For this project we used the follwing tools:
+For this project we used the following tools:
 - Backend: Python and the Django's Rest Framework, PostgreSQL and Nginx 
 - Frontend: Javascript (React-Redux Libraries) and CSS
 - DevOps: Git, GitLab CI/CD, Docker and Digital Ocean
@@ -17,4 +17,4 @@ For this project we used the follwing tools:
 
 ![demo][demo]
 
-[demo]: ./chemAlive_demo.
+[demo]: ./chemAlive_demo.gif
