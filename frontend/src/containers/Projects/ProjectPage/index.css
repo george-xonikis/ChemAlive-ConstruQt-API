@@ -1,0 +1,82 @@
+.project-page-subheader {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+.project-buttons {
+  display: flex;
+}
+
+.project-name-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-name {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: start;
+  color: #2c6aa3;
+  margin: 0 15px 0 0;
+}
+
+.settings-image {
+  cursor: pointer;
+}
+
+.project-settings {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: start;
+  color: #2c6aa3;
+  margin-right: 10px;
+  border-bottom: 1px solid #2c6aa3;
+  cursor: pointer;
+}
+
+.blue-project-button {
+  height: 40px;
+  width: 120px;
+  background-color: #2c6aa3;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
+  color: whitesmoke;
+  /* border: solid whitesmoke 1px; */
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.blue-project-button:hover {
+  background: white;
+  color: #2c6aa3;
+  border: 1px solid #2c6aa3;
+}
+
+.show-ketcher-button {
+  height: 40px;
+  width: 120px;
+  background-color: #e47d31;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+  color: whitesmoke;
+  /* border: solid whitesmoke 1px; */
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.show-ketcher-button:hover {
+  background: white;
+  color: #e47d31;
+  border: 1px solid #e47d31;
+}

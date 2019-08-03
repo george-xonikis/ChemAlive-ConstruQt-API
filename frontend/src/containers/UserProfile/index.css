@@ -1,0 +1,121 @@
+.profile-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  height: 100vh;
+  background-color: #e8e8ec63;
+  padding-top: 40px;
+}
+
+.profile-pic-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.user-profile-form {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin-left: 10%;
+}
+
+.profile_pic-container img {
+  margin-bottom: 50px;
+  align-self: center;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border: 2px solid lightgray;
+  padding: 2px;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.05), 0 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.file-uploaded-preview {
+  margin-bottom: 50px;
+  align-self: center;
+  border-radius: 50%;
+  /* width: 200px;
+  height: 200px; */
+  border: 2px solid lightgray;
+  padding: 2px;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.05), 0 0 1px 0 rgba(0, 0, 0, 0.2);
+}
+
+::placeholder {
+  /* font-weight: bold; */
+  font-size: 1.5em;
+  color: grey;
+  /* width: 400px; */
+}
+
+.profile-input-forms {
+  margin-top: 30px;
+  width: 300px;
+}
+
+h5,
+h4 {
+  font-weight: bold;
+}
+
+.profile-titles {
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: start;
+  color: #2c6aa3;
+}
+
+.title-welcome {
+  margin-right: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-align: start;
+  color: #2c6aa3;
+}
+
+.text-user-profile {
+  margin-right: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-align: start;
+  color: rgb(88, 87, 87);
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.blue-userprofile-button {
+  height: 40px;
+  width: 120px;
+  background-color: #2c6aa3;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-align: center;
+  color: whitesmoke;
+  /* border: solid whitesmoke 1px; */
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.blue-userprofile-button:hover {
+  background: white;
+  color: #2c6aa3;
+  border: 1px solid #2c6aa3;
+}

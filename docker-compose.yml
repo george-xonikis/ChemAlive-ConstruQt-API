@@ -1,0 +1,32 @@
+version: "3"
+services:
+  database:
+    image: postgres:latest
+    restart: always
+    env_file:
+      - dev.env
+    volumes:
+      - database:/var/lib/postgresql/data
+
+  app:
+    image: registry.gitlab.propulsion-home.ch/full-stack/batch-05-2019/personal-projects/chemalive:latest
+    command: "/usr/sbin/sshd -D"
+    restart: always
+    env_file:
+      - dev.env
+    ports:
+      - "8090:8000"
+      - "4738:22"
+    depends_on:
+      - database
+    volumes:
+      - ./app:/app
+      - ./media-files:/media-files
+      - ./static-files:/static-files
+      - ./scripts:/scripts
+      - frontend:/frontend/build
+
+volumes:
+  database:
+  frontend:
+

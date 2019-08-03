@@ -1,0 +1,143 @@
+.costs {
+  /* padding: 40px 0; */
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  height: 100vh;
+  background-color: #e8e8ec63;
+  align-content: center;
+}
+
+.price-title-wrapper {
+  width: 80%;
+  justify-self: center;
+  align-self: center;
+  /* border-bottom: 1px solid #c7c7c7c9; */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.costs-title1 {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #2c6aa3;
+}
+
+.content-cards {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  margin: 6% 10% 0 10%;
+}
+
+.price-card {
+  width: 20%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  vertical-align: top;
+  margin: 0 10px 0 0;
+  /* border: 1px solid lightgray; */
+  padding: 0;
+  /* border-radius: 4px; */
+  border: 1px solid lightgray;
+  /* box-shadow: 0 0px 0px 0 rgba(0,0,0,0), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3); */
+}
+
+.card-header {
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(88, 87, 87);
+  font-family: Roboto;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.price {
+  font-size: 50px;
+  font-weight: 300;
+  color: rgb(88, 87, 87);
+  font-family: Roboto;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.subheader {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  padding-bottom: 20px;
+  background-color: #cddce6;
+  margin-bottom: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 35%;
+}
+
+.subheader div:nth-child {
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.card-body {
+  background-color: #e7edf1;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 226px;
+  padding-top: 12px;
+}
+.small-card-text {
+  margin: 0;
+}
+
+.content-card-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-align: center;
+  color: rgb(88, 87, 87);
+  font-size: 14px;
+  line-height: 1.43;
+  display: block;
+  max-width: 250px;
+  margin: auto;
+}
+
+.blue-button {
+  height: 40px;
+  width: 120px;
+  background-color: #2c6aa3;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-align: center;
+  color: whitesmoke;
+  border: solid whitesmoke 1px;
+  border-radius: 3px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.blue-button:hover,
+.blue-button:focus {
+  background: none;
+  background: white;
+  color: #2c6aa3;
+  border: solid #2c6aa3 1px;
+}

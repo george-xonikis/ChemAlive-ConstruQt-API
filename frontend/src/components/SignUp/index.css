@@ -1,0 +1,112 @@
+.signupPage {
+    height: 100vh;
+    display: flex;
+    object-fit: contain;
+    background-image: linear-gradient(103deg, #222E62, #6A98CC);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    height: 30vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: none;
+}
+
+.sign-up-message-main {
+    font-size: 22px;
+    color: white;
+    width: 70%;
+    line-height: 1;
+    text-align: center;
+    /* font-style: italic; */
+
+
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.89);
+}
+
+.form-container {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#top-form-container {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.registration-email-input {
+    border: none;
+    background: none;
+    height: 30px;
+    border-bottom: solid purple 0.5px;
+}
+
+.registration-button {
+    height: 40px;
+    width: 120px;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgba(40, 166, 215, 0.89);
+    border: solid rgba(40, 166, 215, 0.71) 1px;
+    border-radius: 3px;
+}
+
+.registration-button:hover,
+.registration-button:focus {
+    background: none;
+    background: rgba(40, 166, 215, 0.71);
+    color: white;
+    border: none;
+}
+
+.have-a-code {
+    color: rgba(0, 0, 0, 0.84);
+    font-size: 16px;
+    width: 60%;
+   font-weight: 400;
+   text-align: center;
+   
+
+}
+
+.here {
+    color: #e47d31;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.here:hover {
+    color:#222e62;
+    text-decoration: #e47d31;
+    outline: #222e62;
+
+
+}

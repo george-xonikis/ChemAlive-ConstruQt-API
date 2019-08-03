@@ -1,0 +1,52 @@
+.main-wrapper {
+    background-color: #e8e8ec63;
+    min-height: 100vh;
+    overflow: scroll;
+    
+}
+
+/* .projects-wrapper {
+
+} */
+
+.projects-subheader {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.title-wrapper {
+    display: flex;
+}
+
+.title-projects {
+   
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: start;
+    color: #2C6AA3;
+}
+
+.search-form {
+    width: 400px;
+    margin: 0 1em 0 0;
+}
+
+.input-field {
+    margin: 0 1em 0 0;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

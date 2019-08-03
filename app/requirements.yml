@@ -1,0 +1,18 @@
+name: base
+channels:
+- conda-forge
+dependencies:
+  - python=3.6
+  - psycopg2=2.7.4
+  - gunicorn=19.9.0
+  - pip:
+      - django==2.2.2
+      - coverage==4.3.4
+      - djangorestframework==3.7.7
+      - coreapi==2.3.3
+      - flake8==3.5.0
+      - django-cors-headers
+      - drf_writable_nested==0.5.1
+      - pillow==6.0.0
+      - djangorestframework_simplejwt==4.3.0
+

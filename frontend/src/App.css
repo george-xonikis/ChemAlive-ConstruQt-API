@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+  width: 40%;
+  position: absolute;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  padding-top: 0;
+}
+
+.smiles-editor-input {
+  border: 1px solid lightgray;
+  width: 80%;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.smiles-title {
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+  
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgb(59, 59, 59);
+}
+
+.smile-editor-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+/* 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

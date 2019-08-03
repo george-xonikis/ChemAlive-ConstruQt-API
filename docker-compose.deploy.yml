@@ -1,0 +1,41 @@
+version: '3'
+services:
+
+  app:
+    image: registry.gitlab.propulsion-home.ch/full-stack/batch-05-2019/personal-projects/chemalive
+    env_file:
+      - prod.env
+    command: 'sh /scripts/run.sh'
+    volumes:
+      - static-files:/static-files
+      - media-files:/media-files
+      - frontend:/frontend-build
+    depends_on:
+      - database
+
+  database:
+    image: postgres:latest
+    env_file:
+      - prod.env
+    volumes:
+      - database:/var/lib/postgresql/data
+
+  nginx:
+    image: nginx:latest
+    volumes:
+      - static-files:/static-files
+      - media-files:/media-files
+      - ./nginx:/etc/nginx/conf.d
+      - /etc/letsencrypt:/etc/letsencrypt
+      - frontend:/var/www/frontend
+    ports:
+      - "80:80"
+      - "443:443"
+    # command: /bin/bash -c "nginx -g 'daemon off;'"
+
+
+volumes:
+  database:
+  static-files:
+  media-files:
+  frontend:

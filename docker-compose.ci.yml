@@ -1,0 +1,13 @@
+version: '3'
+services:
+  database:
+    image: postgres:9.6.1
+    restart: always
+
+
+  app:
+    image: "${CI_PIPELINE_ID}:${CI_BUILD_REF_NAME}"
+    volumes:
+      - ./htmlcov:/app/htmlcov
+    depends_on:
+      - database

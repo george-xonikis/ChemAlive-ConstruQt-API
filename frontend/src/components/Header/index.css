@@ -1,0 +1,99 @@
+.header-wrapper {
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  /*position: relative;*/
+  width: 80%;
+  height: 70px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 0 0;
+  justify-self: center;
+  border-bottom: 1px solid rgba(230, 227, 227, 0.26);
+}
+
+.luna_logo {
+  padding-left: 30px;
+  align-self: center;
+}
+
+.header_right {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+
+  align-items: center;
+  padding: 0;
+  background: none;
+  box-shadow: none;
+  /* font-size: 15px; */
+}
+
+/* .link {
+
+}
+
+.link:focus {
+    font-weight: normal;
+    border: none;
+    border-bottom: 3px solid white;
+} */
+
+.transpButton {
+  border-radius: 3px;
+  height: 65%;
+  background-color: transparent;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  width: 20%;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.transpButton:hover {
+  background: white;
+  color: #222e62;
+}
+
+.link-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  margin: 0 0 0 0;
+  /* height: 24px; */
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link-div:hover {
+  font-weight: bold;
+  /* background-color: white; */
+  border: none;
+  color: #e47d31;
+}
+
+.luna_logo {
+  align-self: center;
+}

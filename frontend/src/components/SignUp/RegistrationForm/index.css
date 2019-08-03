@@ -1,0 +1,53 @@
+.Sign-up-main-container {
+    width: 100%;
+    height: 100vh;
+}
+
+.Sign-up-form-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#input-row {
+    margin-top: 20px;
+}
+
+#input-row-b {
+    margin-top: -3px;
+}
+
+.create-account-button {
+    margin-top: 10px;
+    height: 40px;
+    width: 120px;
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #2C6AA3;
+    border: solid #2C6AA3 1px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.create-account-button:hover,
+.create-account-button:focus {
+    background:#2C6AA3;
+    color: white;
+    border: none;
+}
+
+.error-messsage {
+    color: #fb2b32;
+    max-width: 200px;
+    margin: 0 0 0 0;
+    padding: 0;
+    position: relative;
+    font-size: 15px;
+}
