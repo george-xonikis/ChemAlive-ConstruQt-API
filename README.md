@@ -9,9 +9,12 @@ For this project we used the following languages and techs:
 - Frontend: Javascript (React-Redux Libraries) and CSS
 - DevOps: Git, GitLab CI/CD, Docker and Digital Ocean
 
+### Demo Video
+- [Demo](https://youtu.be/ZI8CtRm6h-c)
+
+
 ### Models Representation
 
 ![models][models]
 
 [models]: ./Model_Diagram.png
-
