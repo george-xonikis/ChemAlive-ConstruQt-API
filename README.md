@@ -10,8 +10,10 @@ For this project we used the following languages and techs:
 - DevOps: Git, GitLab CI/CD, Docker and Digital Ocean
 
 ### Demo Video
-- [Demo](https://youtu.be/ZI8CtRm6h-c)
+- [Youtube Demo Link](https://youtu.be/ZI8CtRm6h-c)
+![page][page]
 
+[page]: ./ChemAlive.png
 
 ### Models Representation
 
