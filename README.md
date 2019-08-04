@@ -11,7 +11,9 @@ For this project we used the following languages and techs:
 
 ### Demo Video
 - [Demo](https://youtu.be/ZI8CtRm6h-c)
+![models][models]
 
+[models]: https://youtu.be/ZI8CtRm6h-c
 
 ### Models Representation
 
