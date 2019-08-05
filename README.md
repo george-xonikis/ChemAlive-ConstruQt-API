@@ -5,7 +5,7 @@
 
 ![techs][techs]
 
-[techs]: techs.png
+[techs]: Techs.png
 
 ### Endpoints
 - [Endpoints](./Endpoints.md)
@@ -20,4 +20,4 @@
 
 ![models][models]
 
-[models]: ./Model_Diagram.png
+[models]: Model.png
