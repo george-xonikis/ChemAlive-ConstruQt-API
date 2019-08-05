@@ -1,10 +1,11 @@
 # ChemAlive ConstruQt API
 ### Propulsion Academy Bootcamp Final Project
 
-For this project we used the following languages and techs:
-- Backend: Python and the Django's Rest Framework, PostgreSQL and Nginx 
-- Frontend: Javascript (React-Redux Libraries) and CSS
-- DevOps: Git, GitLab CI/CD, Docker and Digital Ocean
+### Languages and Techs
+
+![techs][techs]
+
+[techs]: techs.png
 
 ### Endpoints
 - [Endpoints](./Endpoints.md)
