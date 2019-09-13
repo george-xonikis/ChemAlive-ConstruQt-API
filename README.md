@@ -1,5 +1,6 @@
 # ChemAlive ConstruQt API
 ### Propulsion Academy Bootcamp Final Project
+##### Creators: Tatiana Panferova, Georgios Xonikis 
 
 ### Languages and Techs
 
